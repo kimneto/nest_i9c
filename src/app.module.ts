@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 
 import { TypeOrmModule } from '@nestjs/typeorm'
-import { EmpresasModule } from './modules/empresas/empresas.module';
+
 import { UsuariosModule } from './modules/usuarios/usuarios.module';
 import { UnidadesModule } from './modules/unidades/unidades.module';
 import { ImpressorasModule } from './modules/impressoras/impressoras.module';
@@ -10,7 +10,7 @@ import { ColetagemModule } from './modules/coletagem/coletagem.module';
 import { NumeradoresModule } from './modules/numeradores/numeradores.module';
 
 @Module({
-  imports: [EmpresasModule, UsuariosModule, UnidadesModule, NumeradoresModule, ImpressorasModule, ColetasModule, 
+  imports: [UsuariosModule, UnidadesModule, NumeradoresModule, ImpressorasModule, ColetasModule, 
     ColetagemModule,
       TypeOrmModule.forRoot({
         type: 'mysql',
