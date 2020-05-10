@@ -14,11 +14,11 @@ import { NumeradoresModule } from './modules/numeradores/numeradores.module';
     ColetagemModule,
       TypeOrmModule.forRoot({
         type: 'mysql',
-        host: '127.0.0.1',
+        host: '162.241.2.94',
         port: 3306,
-        username: 'root',
-        password: '1234',
-        database: 'i9copias',
+        username: 'gmartico_root',
+        password: 'Mbz98r2186',
+        database: 'gmartico_sp3c',
         synchronize: true,
         entities:[__dirname + '/**/*.entity{.ts, .js}']
 
