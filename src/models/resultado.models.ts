@@ -6,7 +6,6 @@ export class Resultado {
   constructor(
     public message:string,
     public success:boolean,
-   
     public data:{},
     public error:[]
   ) {}

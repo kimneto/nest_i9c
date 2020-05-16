@@ -1,4 +1,4 @@
-export class Empresa {
+export class EmpresaModel {
   /**
    *Foi colocado dentro de constructor
    *para não precisar instanciar a classe
@@ -8,6 +8,6 @@ export class Empresa {
     public contrato: string,
     public email: string,
     public telefone: number,
-    public sts: number,
+    public ativo: number,
   ) {}
 }
